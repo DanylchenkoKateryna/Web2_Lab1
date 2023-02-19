@@ -1,6 +1,6 @@
 function shuffle (array) {
   for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(Math.random() * (i + 1));// випадковий індекс від 0 до i
     // поміняти елементи місцями
     // ми використовуємо для цього синтаксис "деструктивне присвоєння"
     // докладніше про нього - в наступних розділах
